@@ -57,7 +57,7 @@ const Home: NextPage<IndexPageProps> = ({initialCatImageUrl} ) => {
     }}>
       <h1>猫画像アプリ</h1>
       {isLoading ? <Loader active size="huge" inline="centered" /> :<img src={catImageUrl}
-      width={500}
+      width={800}
        height = "auto"
        
        />}
